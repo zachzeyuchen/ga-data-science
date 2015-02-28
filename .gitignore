@@ -55,3 +55,7 @@ target/
 
 # OS X directory data
 .DS_Store
+
+assignment/.ipynb_checkpoints/Map-checkpoint.ipynb
+
+NB/.ipynb_checkpoints/Ex6-checkpoint.ipynb

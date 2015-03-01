@@ -14,13 +14,12 @@
 
 ### Comments about their code
 1. I don't know if you realized that whenever you use matplotlib to plot year against some metrics, the year axes actually showd as integers instead of years. For example, 
-       
 ```python
     fig, axes = plt.subplots(nrows=3,ncols=2)  
     axes[0,0].plot(year_gb.Loudness.mean()) 
     axes[0,0].set_ylabel("Loudness")
 ```
-  The x axis was showed as integers rather than years and dates. I found out the issue related to this: http://stackoverflow.com/questions/26526230/plotting-datetimeindex-on-x-axis-with-matplotlib-creates-wrong-ticks-in-pandas-0 
+The x axis was showed as integers rather than years and dates. I found out the issue related to this: http://stackoverflow.com/questions/26526230/plotting-datetimeindex-on-x-axis-with-matplotlib-creates-wrong-ticks-in-pandas-0 
 
 
 ### Suggestions for next steps

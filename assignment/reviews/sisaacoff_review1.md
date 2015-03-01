@@ -7,7 +7,7 @@
 2. sda
 
 ### Comments about things you think could be improved
-1. I realized that in the case that the year is 0, the title of the song actually contains some information abut the year. For example, 'Christina The Astonishing (2010 Digital Remaster)' has year = 0, but I think use 2010 as year might be better than treated as NA.
+1. I realized that in the case that the year is 0, the title of the song actually contains some information abut the year. For example, 'Christina The Astonishing (2010 Digital Remaster)' has year = 0, but I think use 2010 as year might be better than treated as `NA`.
 
 
 ### Questions about things you don't understand

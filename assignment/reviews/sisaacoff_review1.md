@@ -7,7 +7,7 @@
 2. sda
 
 ### Comments about things you think could be improved
-1. I realized that in the case that the year is 0, the title of the song actually contains some information abut the year. For example, 'Christina The Astonishing (2010 Digital Remaster)' has year = 0, but I think use 2010 as year might be better than treated as `NA`.
+1. I realized that in the case that the year is 0, the title of the song actually contains some information abut the year. For example, 'Christina The Astonishing (2010 Digital Remaster)' has `year = 0`, but I think use 2010 as year might be better than treated as `NA`.
 
 
 ### Questions about things you don't understand
@@ -20,6 +20,8 @@
     axes[0,0].plot(year_gb.Loudness.mean()) 
     axes[0,0].set_ylabel("Loudness")
 ```
+
+The x axis was showed as integers rather than years and dates. I found out the issue related to this: http://stackoverflow.com/questions/26526230/plotting-datetimeindex-on-x-axis-with-matplotlib-creates-wrong-ticks-in-pandas-0 
 
 
 ### Suggestions for next steps

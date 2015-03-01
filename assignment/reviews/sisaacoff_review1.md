@@ -14,9 +14,12 @@
 
 ### Comments about their code
 1. I don't know if you realized that whenever you use matplotlib to plot year against some metrics, the year axes actually showd as integers instead of years. For example, 
-        fig, axes = plt.subplots(nrows=3,ncols=2)  
-        axes[0,0].plot(year_gb.Loudness.mean()) 
-        axes[0,0].set_ylabel("Loudness")
+       
+```
+    fig, axes = plt.subplots(nrows=3,ncols=2)  
+    axes[0,0].plot(year_gb.Loudness.mean()) 
+    axes[0,0].set_ylabel("Loudness")
+```
 
 
 ### Suggestions for next steps

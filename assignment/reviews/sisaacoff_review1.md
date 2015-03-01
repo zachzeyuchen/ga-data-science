@@ -2,9 +2,9 @@
 
 ### Strengths of their project 
 
-1. You did a very good job getting and cleaning this dataset. You took the effort to parse the datset that stored in folders and subfolders and explore external tools from github to reads the .h5 files into a dataframe. One suggestion is that you could probably use pd.to_tsv to export the cleaned dataset, so you can continue to bulid on analysis on it. Also it might be good to upload this clean dataset to your github so if other people are interested they can also work on it.
+1. You did a very good job getting and cleaning this dataset. You took the effort to parse the datset that stored in folders and subfolders and explore external tools from github to reads the .h5 files into a dataframe. 
 
-2. sda
+2. You also did a very well exploring the dataset with various techiniques such as qqplot, histgrams and linear regression.
 
 ### Comments about things you think could be improved
 1. I realized that in the case that the year is 0, the title of the song actually contains some information abut the year. For example, 'Christina The Astonishing (2010 Digital Remaster)' has `year = 0`, but I think use 2010 as year might be better than treated as `NA`.
@@ -23,5 +23,6 @@
 
 
 ### Suggestions for next steps
+1. One suggestion is that you could probably use pd.to_tsv to export the cleaned dataset, so you can continue to bulid on analysis . Also it might be good to upload this clean dataset to your github so if other people are interested they can also work on it.
+2. Maybe you can have another notebook with summary and key takeways from this one so you can use it for sharing and presenting.
 
-### Guiding principle: Give feedback that would be helpful to you if it was your project!

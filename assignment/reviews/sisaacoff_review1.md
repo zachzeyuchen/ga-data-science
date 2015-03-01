@@ -20,7 +20,6 @@
     axes[0,0].plot(year_gb.Loudness.mean()) 
     axes[0,0].set_ylabel("Loudness")
 ```
-
   The x axis was showed as integers rather than years and dates. I found out the issue related to this: http://stackoverflow.com/questions/26526230/plotting-datetimeindex-on-x-axis-with-matplotlib-creates-wrong-ticks-in-pandas-0 
 
 

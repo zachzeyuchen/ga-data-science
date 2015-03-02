@@ -1,11 +1,11 @@
 ## Peer Review 1
 
 ### Strengths of their project (things you particularly like about it)
-1. You did a very good job getting the explain the dataset with very detailed data dictionaries and explanations. It helped me a lot with the context of this data since I'm not very familiar with the k-12 education system and related terms.
+1. You did a very good job getting and cleaning the dataset.  There is also a good amount of very detailed data dictionaries and explanations. It helped me a lot with the context of this data since I'm not very familiar with the k-12 education system and related terms.
 
 2. You did very well exploring the dataset with various visuals such as scatter matrix, histograms and qqplot. 
 
-3. The code that test the distribution of each feature and the correlation between different features and SGP was very thorough. Not long linear regression was tested but also exponential distribution. And this did explain some of the features very well.
+3. The code that test the distribution of each feature and the correlation between different features and SGP was very thorough. Not only linear regression was tested but also exponential distribution. And this did explain some of the features very well.
 
 ### Comments about things you think could be improved
 1. Instead of testing the correlation between each feature and SGP separately with `f_select.f_regression`, you can also write a for loop to get the p-value for each feature and then only focus on the features that are significant.
@@ -22,4 +22,5 @@
 ### Suggestions for next steps
 1. Instead of SGP, is there any other metrics we can use to measure student's progress? 
 2. Collect more data and repeat this study periodically.
+3. Search on web to see if there are other studies conducted about SGP.
 

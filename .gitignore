@@ -69,3 +69,13 @@ NB/.ipynb_checkpoints/Ex8-checkpoint.ipynb
 NB/.ipynb_checkpoints/Sklearn-checkpoint.ipynb
 
 NB/.ipynb_checkpoints/Ex7-checkpoint.ipynb
+
+*.pdf
+
+NB/data/yelp_data/yelp_academic_dataset_business.csv
+
+NB/data/yelp_data/yelp_academic_dataset_review.csv
+
+*.csv
+
+*.txt
